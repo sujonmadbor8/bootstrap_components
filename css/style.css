@@ -1,0 +1,56 @@
+/* common css  */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* common css  */
+
+/* header start  */
+
+.header_style nav ul {
+}
+.header_style nav ul li {
+    margin: 0 20px;
+}
+
+.header_style nav ul li:last-child {
+    margin-right: 0;
+}
+.header_style nav ul li a {
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.header_style nav ul li a:hover {
+    transform: scale(1.1);
+}
+
+/* header end */
+
+/* card start  */
+.card_style {
+    transition: all 0.5s;
+}
+.card_style:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+/* card end  */
+
+/* footer start  */
+footer ul li {
+    transition: all 0.3s;
+}
+footer ul li:hover {
+    transform: scale(1.2);
+}
+footer ul li a {
+    font-size: 25px;
+}
+footer ul li a i:hover {
+    color: rgb(45, 45, 201);
+}
+
+/* footer end  */
